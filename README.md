@@ -1,4 +1,4 @@
-# 🧮 Calculator Pro
+# 🧮 Calculator
 
 A modern, robust, and responsive desktop calculator application built with Python and Tkinter. It features a clean user interface, history tracking, and utility features like "Always on Top".
 
@@ -48,7 +48,7 @@ To convert this Python script into a standalone `.exe` file for Windows, use **P
 
 2.  Run the build command (ensure `calc.ico` is in the folder):
     ```bash
-    pyinstaller --noconsole --onefile --icon=calc.ico --add-data "calc.ico;." calculator.py
+    pyinstaller --noconsole --onefile --icon=calc.ico --add-data "calc.ico;." calculator_app.py
     ```
 
     *   `--noconsole`: Hides the terminal window.
